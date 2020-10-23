@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* index page */
+
+.index{
+  font-family: 'Ubuntu', sans-serif; 
+  width: 100vh;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(200, 238, 243, 0.5), 
+    rgba(141, 238, 233, 0)), url('https://www.worldfishcenter.org/sites/all/themes/worldfish/images/why-fish.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+#title{
+  font-size: 1.8em;
+  position: relative;
+  top: 45%;
+  left: 5%;
+}
+
+#title h2{
+  font-size: 2em;
+  margin-bottom: 3px;
+}
+
+
+#title h3{
+  display: inline;
+  position: relative;
+  left: 35%;
+}
+
+#goTo{
+  position: relative;
+  top: 49%;
+  left: 40%;
+}
+
+#goTo a{
+  text-decoration: none;
+  color: white;
+}
+
+/* index page */
+/* --------------------------------- */
+/* main page */
+
+.main{
+  font-family: 'Ubuntu', sans-serif; 
+  width: 100vh;
+  height: 150vh;
+  background: linear-gradient(to right, rgba(59, 153, 207, 0.5), 
+    rgba(9, 45, 110, 0));
+    background-repeat: no-repeat;
+}
+
+#maintitle{
+  font-size: 1.1em;
+  margin: 15px 20px;
+}
+
+
+.sidetab{
+  float: left;
+  width: 30%;
+  height: auto;
+  box-sizing: border-box
+}
+
+.sidetab button{
+  outline: none;
+  border: none;
+  background: none;
+  font-family: 'Ubuntu', sans-serif; 
+  font-size: 1.4em;
+  margin: 10% 20%;
+  cursor: pointer;
+  font-weight: bold;
+} 
+
+
+
+.listmenu{
+  width: 180vh;
+  margin-left:5% ;
+}
+
+.desc{
+  float: left;
+  margin: 20px;
+  width: 150px;
+  height: 200px;
+  border-radius: 30px 0 30px 0;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.desc img{
+  width: 100%;
+  height: 100px;
+  border-radius: 30px 0 0 0;
+}
+
+.desc h3{
+  margin-left: 3%;
+}
+
+.desc h4{
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+
+
+.desc button{
+  outline: none;
+  border: none;
+  background: none;
+  margin-left: 20%;
+  margin-top: 10%;
+  font-family:'Ubuntu', sans-serif; 
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.desc a{
+  text-decoration: none;
+  color: black;
+}
+
+.transaction{
+  width: 600px;
+  height: 250px;
+  border: 1px solid black;
+  position: absolute;
+  top: 113%;
+  left: 30%;
+  background-color: white;
+}
+
+.transaction h3{
+  color: black;
+  position: relative;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.transaction p{
+  margin: 35px 30px;
+  text-align: justify;
+}
+
+.transaction p a{
+  text-decoration: none;
+  color:red;
+}
