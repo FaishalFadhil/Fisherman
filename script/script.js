@@ -1,3 +1,9 @@
+let nama = prompt("Hei, Let us know what's your name", "");
+alert("Hello "+ nama +"! Thanks for your appreciation by visiting our web even we're still in maintenance. hope you love our design!");
+
+
+
+
 let side = document.getElementById("sidetab")
 let listmenu = document.getElementById("listmenu")
 let butfish = document.getElementById("fishes")
